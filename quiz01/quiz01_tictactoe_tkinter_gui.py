@@ -200,7 +200,7 @@ class tttGui:
         if not empty_cells:
             return
 
-        error_rate = 0.4
+        error_rate = 0.3
         if random.random() < error_rate:
             r, c = random.choice(empty_cells)
         else:
@@ -270,4 +270,5 @@ class tttGui:
 if __name__ == "__main__":
     root = tk.Tk()
     game = tttGui(root)
+
     root.mainloop()
