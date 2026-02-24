@@ -1,0 +1,15 @@
+# _______________ "Activity 2" _______________
+# Word count of shakespeare.txt
+import string
+
+with open("shakespeare.txt") as file:
+    text = file.read()
+    after = text.translate(str.maketrans('', '', string.punctuation))
+    words = [word for word in after.split() if word.isalpha]
+    print(words)
+    word_count = len(words)
+
+    print()
+    print("Total words: ", word_count)
+
+# working naman na ata to pero lalagyan ko pa design pag sinipag gumawa hehehiehehe
