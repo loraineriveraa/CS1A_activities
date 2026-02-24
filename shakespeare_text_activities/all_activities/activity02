@@ -12,4 +12,5 @@ with open("shakespeare.txt") as file:
     print()
     print("Total words: ", word_count)
 
-# working naman na ata to pero lalagyan ko pa design pag sinipag gumawa hehehiehehe
+
+# >>> working naman na ata to pero lalagyan ko pa design pag sinipag gumawa hehehiehehe <<<
